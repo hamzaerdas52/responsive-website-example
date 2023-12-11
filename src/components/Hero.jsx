@@ -1,7 +1,7 @@
 import React from 'react'
 import Typed from 'react-typed';
 
-const HomePageOne = () => {
+const Hero = () => {
     return (
         <div className='text-white'>
             <div className='max-w-[800px] flex flex-col mt-[-96px] w-full h-screen mx-auto text-center justify-center'>
@@ -12,10 +12,10 @@ const HomePageOne = () => {
                     <Typed strings={['BTB', 'BTC', 'SASS']} typeSpeed={120} backSpeed={140} loop/>
                 </div>
                 <p className='text-lg md:text-xl text-gray-500 p-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus obcaecati necessitatibus magni laboriosam maiores soluta sint. Nobis mollitia eaque itaque!</p>
-                <button className='bg-[#00df9a] text-[#000300] w-28 md:w-36 lg:w-48 rounded-md my-6 mx-auto py-2'>Get Started</button>
+                <button className='bg-[#00df9a] text-[#000300] font-semibold w-28 md:w-36 lg:w-48 rounded-md my-6 mx-auto py-2'>Get Started</button>
             </div>
         </div>
     )
 }
 
-export default HomePageOne
+export default Hero

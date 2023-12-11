@@ -1,10 +1,16 @@
 import React from 'react'
-import HomePageOne from '../components/HomePageOne'
+import Hero from '../components/Hero'
+import Analytics from '../components/Analytics'
+import Newsletter from '../components/Newsletter'
+import Cards from '../components/Cards'
 
 const Home = () => {
     return (
         <div>
-            <HomePageOne />
+            <Hero />
+            <Analytics/>
+            <Newsletter/>
+            <Cards/>
         </div>
     )
 }
