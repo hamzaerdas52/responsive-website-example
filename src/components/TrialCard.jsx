@@ -1,6 +1,7 @@
 import React from 'react'
 
-const TrialCard = ({CardObject}) => {
+const TrialCard = ({ CardObject }) => {
+    console.log(CardObject);
     return (
         <div className='w-full flex flex-col rounded-lg shadow-xl p-4 my-8 hover:scale-105 duration-300'>
             <img className='w-24 bg-white mx-auto mt-[-3rem]' src={CardObject.image} alt="" />
